@@ -28,7 +28,7 @@ Or you can compile them one by one through IDEs.
 
 ## Game Manager
 
-The code ([main.cpp](/main.cpp)) contains the game logic of Othello. It should work in Linux, Windows, and MacOS (Untested)
+The code ([main.cpp](/main.cpp)) contains the game logic of Othello. It should work in Linux, Windows, and MacOS.
 
 You can change the constant `timeout` in the code to a larger number to increase the max calculation time for each action.
 
@@ -53,6 +53,16 @@ In Terminal / `cmd`:
 # In Windows
 main player_random.exe player_infinite.exe
 ```
+
+**Mac Only**:
+
+Install `coreutils` with homebrew.
+
+```sh
+brew install coreutils
+```
+
+If you do not have homebrew installed, follow the [installation guide](https://docs.brew.sh/Installation).
 
 ## Players
 
